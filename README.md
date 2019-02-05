@@ -1,5 +1,5 @@
 # EventPlus
-Java Web service
+A Java Web Service that integrated with Ticketmaster API to personalized recommend events to users.
 
 ## Technology used
 Java, HTML, CSS, JavaScript, AJAX
