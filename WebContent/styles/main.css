@@ -4,9 +4,12 @@
 	padding: 0;
 }
 
+img {
+	object-fit: cover;
+}
 body {
-	background: #434343;
-	color: #FFFFFF;
+	background: #FFFFFF;
+	color: #343336;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 	font-size: 0.9em;
@@ -16,13 +19,17 @@ ul {
 	list-style: none;
 }
 
+p {
+  color: #343336;
+}
+
 /**
  * top header
  */
 .top-header {
 	align-items: center;
-	background: #DF574B;
-	box-shadow: 0px 2px 10px #333333;
+	background: #FFFFFF;
+    box-shadow: 0 2px 4px -1px rgba(0,0,0,0.12);
 	display: flex;
 	height: 60px;
 	position: fixed;
@@ -32,14 +39,20 @@ ul {
 }
 
 .avatar {
-	background: #FFFFFF;
+	background: #6044f2;
 	border-radius: 50%;
-	color: #333C4D;
+	color: #FFFFFF;
 	height: 40px;
 	margin-right: 20px;
+    margin-left: 10px;
 	padding-left: 9px;
 	padding-top: 5px;
 	width: 40px;
+}
+
+#logout-link {
+	padding-left: 10px;
+	color: #6044f2;
 }
 
 /**
@@ -50,7 +63,7 @@ ul {
 }
 
 .top-nav a {
-	color: #F9F9F9;
+	color: #6044f2;
 	font-weight: 400;
 	margin-left: 20px;
 	text-decoration: none;
@@ -76,8 +89,8 @@ ul {
 .container>header {
 	align-items: center;
 	background:
-		url('http://folkartcarsi.com/img/4.jpg')
-		no-repeat 50% 50%;
+		url('https://cdn-images-1.medium.com/max/1600/1*r3UzROPME99X5TRm81G2vw.jpeg')
+		no-repeat 50% 40%;
 	background-size: 100%;
 	display: flex;
 	height: 250px;
@@ -93,14 +106,126 @@ ul {
 }
 
 .container>header span {
-	color: #FBAF41;
+	color: #FFF;
+}
+
+
+
+/**
+ * login form
+ */
+
+.primary-btn {
+    cursor: pointer;
+	float: right;
+	padding: 8px 20px;
+	text-align: right;
+    color:#FFF;
+    background-color: #6044f2;
+    border-radius: 50px;
+}
+
+.secondary-btn {
+    cursor: pointer;
+	float: left;
+	padding: 8px 10px;
+	text-align: left;
+    color:#343336;
+    background-color: #FFF;
+    border-radius: 50px;
+}
+
+#login-form {
+	color: #6044f2;
+	margin: 0px auto;
+	overflow: auto;
+	padding: 40px;
+	width: 350px;
+    font-weight:500;
+}
+
+input {
+    margin-top:8px;
+	border: 1px solid #e0ddfc;
+	display: block;
+	margin-bottom: 16px;
+	padding: 8px;
+	width: 100%;
+    border-radius: 50px;
+}
+
+#login-form label {
+	display: block;
+}
+ 
+
+/* #login-form #login-btn {
+  cursor: pointer;
+  float: right;
+  padding: 8px 20px;
+  text-align: right;
+    color:#FFF;
+    background-color: #6044f2;
+    border-radius: 50px;
+} */
+
+#login-form #register-form-btn {
+	cursor: pointer;
+	float: left;
+	padding: 8px 10px;
+	text-align: left;
+    color:#343336;
+    background-color: #FFF;
+    border-radius: 50px;
+}
+
+#login-error {
+	clear: both;
+	color: #ee9fb6;
+	padding-top: 10px;
+}
+
+/**
+ * register form
+ */
+#register-form {
+	color: #6044f2;
+	margin: 0px auto;
+	overflow: auto;
+	padding: 40px;
+	width: 350px;
+    font-weight:500;
+}
+
+#register-form label {
+	display: block;
+}
+
+/* #register-form #login-form-btn {
+  cursor: pointer;
+  float: left;
+  padding: 8px 10px;
+  text-align: left;
+} */
+
+/* #register-form #register-btn {
+  cursor: pointer;
+  float: right;
+  padding: 8px 20px;
+  text-align: right;
+} */
+
+#register-result {
+	clear: both;
+	color: #990000;
+	padding-top: 10px;
 }
 
 /**
  * main section
  */
 .main-section {
-	background: #F3BB43;
+	background: #FFF;
 }
 
 /**
@@ -112,7 +237,7 @@ ul {
 }
 
 .nav-icon {
-	color: #624630;
+	color: #6044f2;
 	padding: 20px;
 	text-align: center;
 }
@@ -122,8 +247,8 @@ ul {
  */
 .main-nav-btn {
 	background: none;
-	border-top: 1px solid #FFFFFF;
-	color: #FFFFFF;
+	border-top: 1px solid #e0ddfc;
+	color: #6044f2;
 	display: block;
 	padding: 20px;
 	text-align: left;
@@ -131,13 +256,12 @@ ul {
 }
 
 .main-nav-btn:hover {
-	background: rgba(255, 255, 255, 0.8);
-	color: #624630;
+	background: #e0ddfc;
 }
 
 .main-nav-btn.active {
-	background: #F2EBD9;
-	color: #624630;
+	background: #6044f2;
+	color: #ffffff;
 }
 
 .main-nav-btn i {
@@ -148,8 +272,7 @@ ul {
  * item list
  */
 #item-list {
-	background: #F2EBD9;
-	color: #624630;
+	background: #F9F8FE;
 	list-style: none;
 	margin-left: 180px;
 	min-height: 250px;
@@ -179,7 +302,7 @@ ul {
 }
 
 .item:hover {
-	background: rgba(255, 255, 255, 0.8);
+	background: #ffffff;
 	transition: background-color 100ms linear;
 }
 
@@ -196,7 +319,7 @@ ul {
 }
 
 .item-name {
-	color: #624630;
+	color: #343336;
 	font-weight: 400;
 	text-decoration: none;
 }
@@ -226,14 +349,14 @@ ul {
 }
 
 .fav-link:hover {
-	color: #F13F3F;
+	color: #ee9fb6;
 }
 
 /**
  * footer section
  */
 footer {
-	background: #434343;
+	background: #e0ddfc;
 	font-size: 0.8em;
 	height: 200px;
 	position: relative;
