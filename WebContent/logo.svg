@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="250px" height="250px" viewBox="0 0 250 250" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(46.000000, 9.000000)">
+            <rect id="Rectangle" fill="#6044F2" x="0" y="40" width="158" height="19" rx="9.5"></rect>
+            <rect id="Rectangle-2" fill="#6044F2" x="94" y="0" width="20" height="143" rx="10"></rect>
+            <path d="M69,123 L104,123 C109.522847,123 114,127.477153 114,133 L114,133 C114,138.522847 109.522847,143 104,143 L69,143 C63.4771525,143 59,138.522847 59,133 L59,133 C59,127.477153 63.4771525,123 69,123 Z" id="Rectangle-4" fill="#6044F2"></path>
+            <circle id="Oval-2" stroke="#6044F2" stroke-width="17" cx="79.5" cy="157.5" r="68.5"></circle>
+            <circle id="Oval-3" fill="#EE9FB6" cx="79" cy="179" r="21"></circle>
+        </g>
+    </g>
+</svg>

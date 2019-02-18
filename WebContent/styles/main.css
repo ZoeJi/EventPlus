@@ -38,6 +38,11 @@ p {
 	z-index: 1;
 }
 
+#header-content {
+  max-width: 1000px;
+  vertical-align: baseline;
+}
+
 .avatar {
 	background: #6044f2;
 	border-radius: 50%;
@@ -108,8 +113,6 @@ p {
 .container>header span {
 	color: #FFF;
 }
-
-
 
 /**
  * login form
@@ -356,27 +359,21 @@ input {
  * footer section
  */
 footer {
-	background: #e0ddfc;
-	font-size: 0.8em;
-	height: 200px;
-	position: relative;
+    position: relative;
+    height: 80px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left:50px;
+    box-shadow:0 -0.1875rem 0.125rem #efefef;
+}
+#logo {
+	height: 2rem;
+    width: 2rem;
+    margin-right: 30px;
 }
 
-footer p {
-	text-align: center;
-}
-
-footer p.title {
-	font-size: 1.2em;
-	padding: 15px;
-}
-
-footer ul {
-	align-items: center;
-	display: flex;
-	padding: 20px;
-}
-
-footer ul li {
-	flex: 1;
+#portfolio p {
+  	color:#343336;
+  	font-weight:500;
 }

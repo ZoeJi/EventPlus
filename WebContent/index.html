@@ -8,19 +8,21 @@
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="styles/main.css">
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
 </head>
 <body>
   <header class="top-header">
-    <nav class="top-nav">
-      <a href="#">Home</a>
-      <a href="#">Contact</a>
-      <a href="#">About</a>
-    </nav>
-    <span id="welcome-msg"></span>
-    <a id="logout-link" href="logout">Logout</a>
-    <i id="avatar" class="avatar fa fa-user fa-2x"></i>
+    <div id="header-content">
+      <nav class="top-nav">
+        <a href="#">Home</a>
+        <a href="#">Contact</a>
+        <a href="#">About</a>
+      </nav>
+      <span id="welcome-msg"></span>
+      <a id="logout-link" href="logout">Logout</a>
+      <i id="avatar" class="avatar fa fa-user fa-2x"></i>
+    </div>  
   </header>
   
   <div class="container">
@@ -95,22 +97,10 @@
   </div>
   
   <footer>
-    <p class="title">What We Do</p>
-    <p>"Help you find the best place around."</p>
-    <ul>
-      <li>
-        <p><i class="fa fa-map-o fa-2x"></i></p>
-     
-      </li>
-      <li>
-        <p><i class="fa fa-envelope-o fa-2x"></i></p>
-        
-      </li>
-      <li>
-        <p><i class="fa fa-phone fa-2x"></i></p>
-        
-      </li>
-    </ul>
+    <img id="logo" src="logo.svg" alt="logo">
+    <div class="footer-items" id="portfolio">
+      <p>Learn more</p>
+    </div>
   </footer>
   
   <script src="https://rawgit.com/emn178/js-md5/master/build/md5.min.js"></script>
