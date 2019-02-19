@@ -74,6 +74,12 @@ p {
 	text-decoration: none;
 }
 
+.top-nav img {
+	height: 2rem;
+    width: 2rem;
+    margin-left: 2rem;
+}
+
 #welcome-msg {
 	border-right: 1px solid #FFFFFF;
 	padding-right: 10px;
