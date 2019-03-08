@@ -36,6 +36,7 @@ p {
 	z-index: 1;
 	display: flex;
 	align-items: center;
+	flex-direction: row;
 }
 
 .avatar {
@@ -60,23 +61,18 @@ p {
  */
 .top-nav {
 	flex: 1;
-	position: absolute;
-	height: 100%;
-	flex-direction: row;
-    align-items: center;
-	padding-left: 3rem;
 }
 
-.top-nav a {
+.top-nav span {
 	color: #6044f2;
-	font-weight: 400;
+	font-weight: 500;
 	margin-left: 20px;
-	text-decoration: none;
 }
 
 .top-nav img {
 	height: 2rem;
     width: 2rem;
+    margin-left: 48px;
 }
 
 #welcome-msg {
