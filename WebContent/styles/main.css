@@ -33,7 +33,7 @@ p {
 	position: fixed;
 	top: 0;
 	width: 100%;
-	z-index: 1;
+	z-index: 3;
 	display: flex;
 	align-items: center;
 	flex-direction: row;
@@ -65,7 +65,8 @@ p {
 
 .top-nav span {
 	color: #6044f2;
-	font-weight: 500;
+	font-size: 1.25em;
+	font-weight: 400;
 	margin-left: 20px;
 }
 
@@ -105,10 +106,10 @@ p {
   width: 100%;
   top: 50%;
   transform: translateY(-40%);
-  z-index: -1;
 }
 .Header__title {
   font-size: 2.6em;
+  z-index: 1;
 }
 
 /**
@@ -226,7 +227,7 @@ input {
  */
 .main-section {
 	background: #FFF;
-	margin-top: 40px;
+	margin-top: 60px;
 }
 
 /**
