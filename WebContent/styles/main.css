@@ -34,6 +34,7 @@ p {
 	top: 0;
 	width: 100%;
 	z-index: 1;
+	display: flex;
 	align-items: center;
 }
 
@@ -58,8 +59,7 @@ p {
  * top navigation
  */
 .top-nav {
-	display: flex;
-	/* flex: 1; */
+	flex: 1;
 	position: absolute;
 	height: 100%;
 	flex-direction: row;
